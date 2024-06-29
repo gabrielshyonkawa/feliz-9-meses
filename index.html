@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        
+        .container {
+            width: 21cm;
+            height: 29.7cm;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .sidebar {
+            width: 30%;
+            background: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .sidebar h1 {
+            margin: 10px 0;
+            font-size: 1.8em;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 5px;
+        }
+        
+        .sidebar p {
+            margin: 5px 0;
+            font-size: 0.95em;
+        }
+        
+        .main-content {
+            width: 70%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .main-content h2 {
+            font-size: 1.5em;
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .main-content section {
+            margin-bottom: 20px;
+        }
+        
+        .job, .education {
+            margin: 15px 0;
+        }
+        
+        .job h3, .education h3 {
+            font-size: 1.2em;
+            margin: 8px 0;
+            color: #007BFF;
+        }
+        
+        .job p, .education p {
+            margin: 5px 0;
+            color: #666;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        ul li {
+            background: #f4f4f4;
+            margin: 8px 0;
+            padding: 12px;
+            border: 1px solid #ddd;
+            color: #333;
+        }
+
+        .education {
+            background-color: #E9ECEF;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .education h3 {
+            font-size: 1.2em;
+            margin: 5px 0;
+            color: #007BFF;
+        }
+
+        .education p {
+            margin: 5px 0;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .job ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        @media print {
+            body {
+                font-size: 10pt;
+            }
+            
+            .container {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                box-shadow: none;
+                page-break-after: avoid;
+            }
+            
+            .sidebar, .main-content {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Gabriel Silva de Alemida Côrtes</h1>
+            <p>Endereço: R. Nilo Manoel dos Santos, 115<br> Porto do Carro, São Pedro da Aldeia - RJ</p>
+            <p>Telefone: (22) 99842-1170</p>
+            <p>Email: gabrielcortes2809@gmail.com</p>
+            
+            <section>
+                <h2>Formação Acadêmica</h2>
+                <div class="education">
+                    <h3>Faculdade: Estácio</h3>
+                    <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+                    <p><strong>Período:</strong> junho/2021 - cursando</p>
+                </div>
+                <div class="education">
+                    <h3>Escolaridade: CEM 09 Ceilândia</h3>
+                    <p><strong>Escolaridade:</strong> Ensino Médio Completo</p>
+                </div>
+                <div class="education">
+                    <h3>Cursos: Kenzie Academy</h3>
+                    <p><strong>Curso Profissionalizante:</strong> Full Stack</p>
+                    <p><strong>Período:</strong> dezembro/2023 - março/2025</p>
+                </div>
+            </section>
+        </div>
+        <div class="main-content">
+            <section>
+                <h2>Objetivo</h2>
+                <p>Profissional em formação na área de programação e análise de sistemas, atualmente cursando Full Stack na Academia Kenzie. Com grande experiência em liderança, gestão de pessoas e vendas, busco uma oportunidade desafiadora para aplicar e expandir meus conhecimentos técnicos e habilidades, contribuindo para o crescimento da empresa.</p>
+            </section>
+            
+            <section>
+                <h2>Experiência Profissional</h2>
+                <div class="job">
+                    <h3>GM Promo</h3>
+                    <p><strong>Cargo:</strong> Promotor Líder</p>
+                    <p><strong>Período:</strong> abril/2021 - junho/2024</p>
+                    <p><strong>Atividades e Responsabilidades:</strong></p>
+                    <ul>
+                        <li>Recrutamento e seleção de profissionais homologados para vagas terceirizadas.</li>
+                        <li>Coordenação da comunicação entre os candidatos selecionados e a gerência.</li>
+                        <li>Elaboração de listas de candidatos para o departamento de Recursos Humanos.</li>
+                        <li>Gestão do processo de pagamento para os colaboradores terceirizados.</li>
+                        <li>Envio e acompanhamento de funcionários terceirizados para empresas contratantes.</li>
+                    </ul>
+                </div>
+                
+            </section>
+            
+        </div>
+    </div>
+</body>
+</html>
